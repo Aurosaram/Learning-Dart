@@ -55,4 +55,16 @@ It can span multiple lines.''';
   // double to string
   String doubleToString = 3.14435.toStringAsFixed(2);
   assert(doubleToString == '3.14', 'The string should be "3.14"');
+
+  // consts
+  const constint = 100;
+  const constdouble = 3.14;
+  const conststring = 'Hello, Dart!';
+  print('Const int: $constint');
+  print('Const double: $constdouble');
+  print('Const string: $conststring');
+
+  print(constint.runtimeType); // int
+  print(constdouble.runtimeType); // double
+  print(conststring.runtimeType); // String
 }
