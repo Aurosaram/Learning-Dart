@@ -23,7 +23,7 @@ void main() {
   print(names3[0]); // Alice
 
   // set
-  var uniqueNames = {'Alice', 'Bob', 'Charlie', 'Alice'};
+  var uniqueNames = {'Alice', 'Bob', 'Charlie'};
   print(uniqueNames); // {Alice, Bob, Charlie}
 
   // emptu set
